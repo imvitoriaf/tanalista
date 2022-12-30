@@ -1,0 +1,31 @@
+ion-content {
+    --ion-background-color: linear-gradient(45deg, #3d1758, #7B68EE);
+}
+
+.button-block {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: block;
+    width: 94%;
+    clear: both;
+    contain: content;
+    text-transform: capitalize;
+}
+
+.list-md {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 25px;
+
+}
+
+
+.flex-container {
+    display: flexbox;
+}

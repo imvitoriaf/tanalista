@@ -1,0 +1,65 @@
+<ion-content>
+  
+<form [formGroup]="form">
+<ion-list style="background: linear-opacity(45deg,#45195a, #7c56ec)" >
+
+  <ion-item lines="none" color="opacity">
+    <ion-label color="light" style="font-weight: 50; font-size: 1cm; text-align: center;">Cadastre-se</ion-label>
+  </ion-item>
+
+  <ion-card style="border-radius: 25px" >
+    <ion-item color="light">
+    <ion-label position="floating">Nome*</ion-label>
+    <ion-input placeholder="Digite seu nome" formControlName="nome"></ion-input>
+    </ion-item>
+  </ion-card>
+
+  <ion-card style="border-radius: 25px">
+    <ion-item color="light">
+      <ion-label position="floating">Sobrenome*</ion-label>
+      <ion-input placeholder="Digite seu Sobrenome"></ion-input>
+    </ion-item>
+  </ion-card>
+
+  <ion-card style="border-radius: 25px">
+    <ion-item color="light">
+      <ion-label position="floating">Telefone*</ion-label>
+      <ion-input placeholder="Digite seu Telefone"></ion-input>
+    </ion-item>
+  </ion-card>
+
+  <ion-card style="border-radius: 25px">
+    <ion-item color="light">
+      <ion-label position="floating">E-mail*</ion-label>
+      <ion-input placeholder="Digite seu E-mail"></ion-input>
+    </ion-item>
+  </ion-card>
+
+  <ion-card style="border-radius: 25px">
+    <ion-item color="light">
+      <ion-label position="floating">Senha*</ion-label>
+      <ion-input placeholder="Crie uma senha" formControlName="senha"></ion-input>
+    </ion-item>
+  </ion-card>
+
+  <ion-card style="border-radius: 25px">
+    <ion-item color="light">
+      <ion-label position="floating">Confirme a Senha*</ion-label>
+      <ion-input placeholder="Confirme sua senha"></ion-input>
+    </ion-item>
+  </ion-card>
+
+  <ion-item color="opacity" lines="none" style="margin: 10px 0">
+    <ion-checkbox slot="start"></ion-checkbox>
+    <ion-label>Aceito os termos de uso</ion-label>
+  </ion-item>
+
+  <div style="margin: 40px 0">
+    <ion-button expand="block" color="tertiary" shape="round" size="large" (click)="cadastrar()">Registrar</ion-button>
+  </div>
+
+
+</ion-list>
+</form>
+
+</ion-content>

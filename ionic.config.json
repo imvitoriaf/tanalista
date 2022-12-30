@@ -1,0 +1,7 @@
+{
+  "name": "PreApp1",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

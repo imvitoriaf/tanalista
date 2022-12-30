@@ -1,0 +1,59 @@
+<ion-content [fullscreen]="true">
+
+
+  <img src ="assets/foto tanalistaa.png" alt="logo" class="ion-text-center">
+
+  <div class="ion-text-center text bold" style="margin: 15px ">
+    <ion-label color="light"><B>SEJA BEM VINDO!</B></ion-label>
+  </div>
+
+
+<ion-card style="border-radius: 25px 25px 25px 25px;" >
+  <ion-item color="light">
+  <ion-label position="stacked"><b>  E-mail</b></ion-label>
+  <ion-input type="email" placeholder="Digite seu E-mail"></ion-input>
+  </ion-item>
+</ion-card>
+
+
+<ion-card style="border-radius: 25px 25px 25px 25px;">
+  <ion-item color="light">
+  <ion-label position="stacked"><b>Senha</b></ion-label>
+  <ion-input type="password" placeholder="Digite sua Senha"></ion-input>
+  </ion-item>
+</ion-card>
+
+<div class="ion-text-center text bold" >
+  <ion-label color="light">Esqueceu a senha?</ion-label>
+</div>
+
+<div style="margin: 20px 0">
+  <ion-button expand="block" color="tertiary" shape="round" size="large" routerLink="/home">Entrar</ion-button>
+</div>
+
+<div class="ion-text-center text bold" style="margin: 25px 0">
+  <ion-label color="light">Ou acesse com:</ion-label>
+</div>
+
+<div style="display: flex; justify-content: center; gap: 10px; margin: 10px 0;">
+  <ion-button color="tertiary">
+    <ion-icon slot="icon-only" name="logo-google"></ion-icon>
+  </ion-button>
+  
+  <ion-button color="tertiary">
+    <ion-icon slot="icon-only" name="logo-apple"></ion-icon>
+  </ion-button>
+  
+  <ion-button color="tertiary">
+    <ion-icon slot="icon-only" name="logo-facebook"></ion-icon>
+  </ion-button>
+</div>
+
+
+
+
+<div class="ion-text-center text bold" style="margin: 25px 0">
+  <ion-label color="light">Não é um membro? <a routerLink="/cadastro"><span style="color: #858eee">Registre-se</span></a></ion-label>
+</div>
+
+</ion-content>
